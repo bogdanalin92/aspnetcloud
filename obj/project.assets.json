@@ -402,7 +402,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Connections.Abstractions/2.1.1": {
+      "Microsoft.AspNetCore.Connections.Abstractions/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.1.1",
@@ -1294,11 +1294,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.3",
           "Microsoft.AspNetCore.WebUtilities": "2.1.1",
           "Microsoft.Extensions.Configuration.Binder": "2.1.1",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
@@ -1317,11 +1317,11 @@
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.1"
+          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.3"
         },
         "compile": {
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll": {}
@@ -1330,10 +1330,10 @@
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Connections.Abstractions": "2.1.1"
+          "Microsoft.AspNetCore.Connections.Abstractions": "2.1.3"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll": {}
@@ -4558,15 +4558,15 @@
         "microsoft.aspnetcore.authorization.policy.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Connections.Abstractions/2.1.1": {
-      "sha512": "F3+HhBB2Xh9EbJDLJq9PqKIvLiiFHWwoSU/LLjltbV/p0ch7fXCvmQqZV+p+Od/Gji2QsSwsr2EhVEA9FCZh1g==",
+    "Microsoft.AspNetCore.Connections.Abstractions/2.1.3": {
+      "sha512": "9MHZ6ML9ZRVSs0cxS6YUasVmkYxuDQHslAzibC4hFnLw15NFXhxsZmHWhUKMSkXTNcrY2UzBXC5Z3irBrkV2CQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.connections.abstractions/2.1.1",
+      "path": "microsoft.aspnetcore.connections.abstractions/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "microsoft.aspnetcore.connections.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.connections.abstractions.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.connections.abstractions.nuspec"
       ]
     },
@@ -5330,43 +5330,43 @@
         "microsoft.aspnetcore.server.kestrel.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.1": {
-      "sha512": "lJHti9K7nUoFdx3czli+ITiTOOT1GBgKZxhe5dT0K/6lIniyDZAHZ+s9n4JGej2fUEFBZvfSxIGBWZUGe1ffmw==",
+    "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.3": {
+      "sha512": "rvNeD2+SneCg/S4BMzxDjUtGglzi07IAKLERwVu5/tsF1CKpvjmUbdawd14z68pLxQN8ED/ksrQ014cs4iY3Gg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.core/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.core/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
-        "microsoft.aspnetcore.server.kestrel.core.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.core.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.1": {
-      "sha512": "7DtRvE3ffWAqa2zyOt2pKKmi9xToQCP/WFBmujTZTfB8FX+1sEHc0/2h2WuaCZTmXC+jwLdO95HZx8Bu0XctSQ==",
+    "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.3": {
+      "sha512": "6oauEGoE7YAGcnctDMkcyJQGDtmRel91aZ9KkezP3TJqAOFh9RTCy19627WDxRq0RnsEEo+lPD2EB9ZUxEhcZg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.https/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.https/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.xml",
-        "microsoft.aspnetcore.server.kestrel.https.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.https.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.https.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.1": {
-      "sha512": "118KSszFP/b81+AS+h1M3Tm6pSL3Py8y65UjEzM9BE3S5qlTRC+w/ExHqy5avZOkvunfAlEFKu8Gyl9IJQFdXw==",
+    "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.3": {
+      "sha512": "t+hWYlKXrJhWlkQPKKszy9Txt/n1IcymhB0io+va8fMRMOLUj1f6e9A/pgmR/YGYtfwZ8Zt0NInhjnbfoe4d5Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.xml",
-        "microsoft.aspnetcore.server.kestrel.transport.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.transport.abstractions.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.transport.abstractions.nuspec"
       ]
     },
@@ -11496,6 +11496,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.AspNetCore.Server.Kestrel.Https >= 2.1.3",
       "Microsoft.NETCore.App >= 2.1.0",
       "Newtonsoft.Json >= 11.0.2"
     ]
@@ -11507,11 +11508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Encode\\asptestcloud\\asptestcloud.csproj",
+      "projectUniqueName": "d:\\Projects\\Encode\\asptestcloud\\asptestcloud.csproj",
       "projectName": "asptestcloud",
-      "projectPath": "D:\\Projects\\Encode\\asptestcloud\\asptestcloud.csproj",
+      "projectPath": "d:\\Projects\\Encode\\asptestcloud\\asptestcloud.csproj",
       "packagesPath": "C:\\Users\\rblbotu\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Encode\\asptestcloud\\obj\\",
+      "outputPath": "d:\\Projects\\Encode\\asptestcloud\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11544,6 +11545,10 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Server.Kestrel.Https": {
+            "target": "Package",
+            "version": "[2.1.3, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
