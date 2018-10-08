@@ -10,5 +10,11 @@
 </div>
 
 <div class="row">
-    @await Html.PartialAsync("_Article")
+    @for(int i = 1; i < 3; i++)
+    {
+        <div class="container">
+            @await Html.PartialAsync("_Article")
+        </div>
+    }
+    
 </div>
