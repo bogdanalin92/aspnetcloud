@@ -30,3 +30,4 @@ D:\Projects\Encode\asptestcloud\obj\Debug\netcoreapp2.1\asptestcloud.Views.pdb
 D:\Projects\Encode\asptestcloud\obj\Debug\netcoreapp2.1\asptestcloud.dll
 D:\Projects\Encode\asptestcloud\obj\Debug\netcoreapp2.1\asptestcloud.pdb
 D:\Projects\Encode\asptestcloud\obj\Debug\netcoreapp2.1\asptestcloud.csproj.CopyComplete
+D:\Projects\Encode\asptestcloud\obj\Debug\netcoreapp2.1\Razor\Pages\_Article.g.cshtml.cs
