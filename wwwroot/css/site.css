@@ -1,37 +1,52 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
 for details on configuring this project to bundle and minify static web assets. */
+* {
+    box-sizing: border-box;
+}
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+    background-color: beige;
+    padding: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.column{
+    float: left;
+    padding: 10px;
+    height: 300px;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+.column.side {
+    width: 15%;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+.column.side:first-child{
+    border-right: 1px dashed black;
 }
 
-/* QR code generator */
-#qrCode {
-    margin: 15px;
+.column.middle {
+    width: 50%;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
     }
 }
