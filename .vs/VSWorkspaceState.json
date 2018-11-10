@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\aspnetcloud",
+    "\\bin",
+    "\\wwwroot"
   ],
-  "SelectedNode": "\\asptestcloud.csproj",
   "PreviewInSolutionExplorer": false
 }
