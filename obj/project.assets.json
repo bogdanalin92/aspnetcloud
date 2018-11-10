@@ -11508,23 +11508,25 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projects\\Encode\\asptestcloud\\asptestcloud.csproj",
+      "projectUniqueName": "D:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\asptestcloud.csproj",
       "projectName": "asptestcloud",
-      "projectPath": "d:\\Projects\\Encode\\asptestcloud\\asptestcloud.csproj",
-      "packagesPath": "C:\\Users\\rblbotu\\.nuget\\packages\\",
-      "outputPath": "d:\\Projects\\Encode\\asptestcloud\\obj\\",
+      "projectPath": "D:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\asptestcloud.csproj",
+      "packagesPath": "C:\\Users\\BogdanAlin\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rblbotu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\BogdanAlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {

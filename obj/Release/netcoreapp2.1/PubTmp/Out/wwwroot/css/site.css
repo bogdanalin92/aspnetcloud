@@ -1,10 +1,10 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
 for details on configuring this project to bundle and minify static web assets. */
-* {
-    box-sizing: border-box;
-}
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    box-sizing: border-box;
+    font-family: 'Harabara';
+    background: radial-gradient( circle farthest-corner at 10% 20%, rgba(149,219,254,1) 0%, rgba(7,134,197,1) 90.1% );
+    height:100vh;
 }
 .header {
     background-color: beige;
