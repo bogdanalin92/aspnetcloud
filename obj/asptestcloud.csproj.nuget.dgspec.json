@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\asptestcloud.csproj": {}
+  },
+  "projects": {
+    "E:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\asptestcloud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\asptestcloud.csproj",
+        "projectName": "asptestcloud",
+        "projectPath": "E:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\asptestcloud.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\Exercies C#\\bogdanalin92\\aspnetcloud\\aspnetcloud\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AngularJS.Core": {
+              "target": "Package",
+              "version": "[1.7.7, )"
+            },
+            "AngularJS.Resource": {
+              "target": "Package",
+              "version": "[1.7.7, )"
+            },
+            "AngularJS.Route": {
+              "target": "Package",
+              "version": "[1.7.7, )"
+            },
+            "AngularJS.Sanitize": {
+              "target": "Package",
+              "version": "[1.7.7, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Https": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
