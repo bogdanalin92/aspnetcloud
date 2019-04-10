@@ -1,5 +1,5 @@
 ﻿/.vs/asptestcloud/v15/Server/sqlite3
-.vs
-.vscode
-aspnetcloude
-node_modules
+/.vs
+/.vscode
+/aspnetcloude
+/node_modules
