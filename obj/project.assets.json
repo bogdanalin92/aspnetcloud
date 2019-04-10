@@ -23,6 +23,15 @@
           "AngularJS.Core": "1.7.7"
         }
       },
+      "Autofac/4.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4413,6 +4422,26 @@
         "content/Scripts/angular-sanitize.js",
         "content/Scripts/angular-sanitize.min.js",
         "content/Scripts/angular-sanitize.min.js.map"
+      ]
+    },
+    "Autofac/4.9.2": {
+      "sha512": "lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
+      "type": "package",
+      "path": "autofac/4.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.2.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -11771,6 +11800,7 @@
       "AngularJS.Resource >= 1.7.7",
       "AngularJS.Route >= 1.7.7",
       "AngularJS.Sanitize >= 1.7.7",
+      "Autofac >= 4.9.2",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Server.Kestrel.Https >= 2.1.3",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -11833,6 +11863,10 @@
           "AngularJS.Sanitize": {
             "target": "Package",
             "version": "[1.7.7, )"
+          },
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.9.2, )"
           },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
