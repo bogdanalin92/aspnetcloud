@@ -1,5 +1,5 @@
 <style>
-#wrapper #dev{
+#main_content_wrap #dev{
         background: transparent;
         color:red;
         padding:20px;
