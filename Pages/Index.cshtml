@@ -9,12 +9,8 @@
     <p>DacikMedia</p>
 </div>
 
-<div class="row">
-    @for(int i = 1; i < 5; i++)
-    {
-        <div class="container">
+<div class="row" ng-controller="">
+        <div class="container" >
             @await Html.PartialAsync("_Article")
         </div>
-    }
-    
 </div>
